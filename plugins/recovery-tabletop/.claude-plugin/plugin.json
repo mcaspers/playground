@@ -1,0 +1,20 @@
+{
+  "name": "recovery-tabletop",
+  "version": "0.2.0",
+  "description": "Moderator-led disaster recovery and service outage tabletop exercises, scaled by organization maturity, grounded in NIST SP 800-84 and SP 800-34r1 and in real published outage postmortems for the organization's stack and service model.",
+  "author": {
+    "name": "Matt Casperson",
+    "url": "https://github.com/mcaspers"
+  },
+  "homepage": "https://github.com/mcaspers/playground",
+  "repository": "https://github.com/mcaspers/playground",
+  "license": "MIT",
+  "keywords": [
+    "disaster-recovery",
+    "business-continuity",
+    "tabletop-exercise",
+    "grc",
+    "nist",
+    "outage-response"
+  ]
+}

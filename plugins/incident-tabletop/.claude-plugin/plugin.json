@@ -1,0 +1,20 @@
+{
+  "name": "incident-tabletop",
+  "version": "0.3.0",
+  "description": "Moderator-led incident response tabletop exercises, scaled by organization maturity, grounded in NIST SP 800-84 and SP 800-61r3 and in researched incident precedents for the organization's industry and tech stack.",
+  "author": {
+    "name": "Matt Casperson",
+    "url": "https://github.com/mcaspers"
+  },
+  "homepage": "https://github.com/mcaspers/playground",
+  "repository": "https://github.com/mcaspers/playground",
+  "license": "MIT",
+  "keywords": [
+    "incident-response",
+    "tabletop-exercise",
+    "grc",
+    "nist",
+    "threat-intelligence",
+    "security-training"
+  ]
+}

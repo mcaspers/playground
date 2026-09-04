@@ -1,0 +1,22 @@
+{
+  "name": "redteam",
+  "displayName": "Red Team",
+  "description": "Repeatable, multi-agent, black-box adversarial testing of any authorized target — a network, host, web app, cloud tenant, or bespoke system. An interactive intake derives the target and its authorized scope; the engagement then follows NIST SP 800-115 with MITRE ATT&CK + NIST SP 800-53/53A mapping, standards-grounded test catalogs (OWASP WSTG/ASVS, CIS, OSSTMM), a human approval gate, and evidence capture. Dry-run by default; live probes are gated behind scope enforcement and a human-written approval token.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Matt Casperson",
+    "url": "https://github.com/mcaspers"
+  },
+  "homepage": "https://github.com/mcaspers/playground",
+  "repository": "https://github.com/mcaspers/playground",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "penetration-testing",
+    "red-team",
+    "vulnerability-assessment",
+    "mitre-attack",
+    "nist-800-115",
+    "owasp"
+  ]
+}
