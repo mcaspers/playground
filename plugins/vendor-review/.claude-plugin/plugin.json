@@ -1,0 +1,19 @@
+{
+  "name": "vendor-review",
+  "version": "0.1.7",
+  "description": "Human-directed, NIST-benchmarked vendor reviews using workbench connectors and optional organizational context.",
+  "author": {
+    "name": "Matt Casperson",
+    "url": "https://github.com/mcaspers"
+  },
+  "homepage": "https://github.com/mcaspers/playground",
+  "repository": "https://github.com/mcaspers/playground",
+  "license": "MIT",
+  "keywords": [
+    "vendor-risk",
+    "grc",
+    "nist",
+    "third-party-risk",
+    "audit-readiness"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "playground",
+  "owner": {
+    "name": "Matt Casperson",
+    "url": "https://github.com/mcaspers"
+  },
+  "interface": { "displayName": "Playground" },
+  "plugins": [
+    {
+      "name": "incident-tabletop",
+      "source": "./plugins/incident-tabletop",
+      "category": "GRC"
+    },
+    {
+      "name": "recovery-tabletop",
+      "source": "./plugins/recovery-tabletop",
+      "category": "GRC"
+    },
+    {
+      "name": "vendor-review",
+      "source": "./plugins/vendor-review",
+      "category": "GRC"
+    },
+    {
+      "name": "redteam",
+      "source": "./plugins/redteam",
+      "category": "Security"
+    },
+    {
+      "name": "agent-readiness",
+      "source": "./plugins/agent-readiness",
+      "category": "Agent Experience"
+    }
+  ]
+}

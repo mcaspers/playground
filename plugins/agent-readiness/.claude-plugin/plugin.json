@@ -1,0 +1,19 @@
+{
+  "name": "agent-readiness",
+  "version": "0.1.0",
+  "description": "Reads a codebase and interviews its owner, then hands back an opinionated plan of the documentation an agent needs to work there.",
+  "author": {
+    "name": "Matt Casperson",
+    "url": "https://github.com/mcaspers"
+  },
+  "homepage": "https://github.com/mcaspers/playground",
+  "repository": "https://github.com/mcaspers/playground",
+  "license": "MIT",
+  "keywords": [
+    "agent-experience",
+    "agent-readiness",
+    "documentation",
+    "onboarding",
+    "skills"
+  ]
+}
