@@ -26,6 +26,21 @@ agnostic about the tools to produce it: it maps an item to a skill only when a f
 one exists in your environment, and otherwise states the intervention plainly. It
 **recommends and hands off** — it never executes the plan itself.
 
+## Claude Code usage
+
+Install the marketplace locally, then install the plugin:
+
+```text
+/plugin marketplace add mcaspers/playground
+/plugin install agent-readiness@playground
+```
+
+Run it with:
+
+```text
+/agent-readiness:agent-readiness
+```
+
 ## Built on
 
 The orchestrator/worker discipline, the grilling interview primitive, and the
