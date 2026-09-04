@@ -135,9 +135,11 @@ it asks for something people can produce even when they can't write documentatio
   What do you show first?" People know how to give a tour long before they can write
   one down. The order they choose *is* the onboarding narrative.
 - **The fear** — "Last time you touched this, what were you scared to break?" Caution
-  surfaces landmines and hidden coupling that no direct question reaches.
+  surfaces landmines and hidden coupling that no direct question reaches — capture them
+  as context to document, not problems to fix.
 - **The 3am pager** — "What breaks in prod? What do you always end up re-explaining to
-  yourself?" Finds the operational reality and the runbook material.
+  yourself?" Finds the operational reality as *runbook material to write down* — the
+  finding is the documentation the repo lacks, never an operational change to make.
 - **The archaeology** — "What's in here you'd delete if you were feeling brave?" Finds
   dead code, drift, and the gap between what they think exists and what does.
 - **The weird thing** — point at something the scan flagged as surprising and ask them
@@ -178,6 +180,28 @@ As you go, keep updating the ledger (not the transcript):
 - **Terms** — words they use that an outsider wouldn't get (seeds the glossary).
 - **Open questions + their priorities** — what's still fuzzy, and what they care about
   most. Priority order shapes the plan.
+
+### Keep every finding a documentation finding
+
+This skill measures and documents the project **as it is**: its state, how that state is
+or isn't captured, how that context is structured, whether the structure is effective,
+and whether the docs fairly represent reality. That is the entire lens.
+
+The interview surfaces operational and architectural material on purpose — the manual
+step, the landmine, the thing that breaks at 3am. Treat that material as a **signal that
+context is missing or misrepresented**, never as a to-do to change how the project works.
+Every finding resolves to a documentation intervention, or it's dropped:
+
+- ✅ "This deploy step is manual and undocumented — an agent lands here blind. Document
+  it as a runbook so an agent can operate it."
+- ❌ "This deploy step is risky — add a guardrail, automate it, or rearchitect it."
+
+The first makes the project legible to an agent; the second is a process or architecture
+improvement, which is a different job and out of scope. When a concern is real but purely
+operational, the only in-scope output is *"the docs don't capture this — here's the
+documentation that would."* Keep questions aimed at legibility of the current state
+("what would an agent need written down to operate this?"), not at generating
+improvements ("what concerns you operationally, and how should we fix it?").
 
 ---
 
@@ -271,6 +295,10 @@ writing documentation of the code — you still never do the latter here.
 - It does not execute the plan or offer to. It ends by handing the plan back and
   stopping; a separate executor skill (or the human) carries it forward.
 - It does not ask the human for anything the files can already tell it.
+- It does not recommend process, operational, or architecture improvements. Material the
+  interview surfaces about how the project *works* is only ever a signal that
+  documentation is missing or wrong; every intervention is documentation of the project's
+  current state. See **Keep every finding a documentation finding**.
 
 ## Runtime note
 
